@@ -1,17 +1,6 @@
-import discord
-from discord.ext import commands
-import os
- 
-bot = commands.Bot(command_prefix='?')
-bot.remove_command("help")
- 
-@bot.event
-async def on_ready():
-    print('Logged in as')
-    print(bot.user.name)
-    print(bot.user.id)
-    print('------')
- 
-[several commands]
- 
-bot.run(config.token)
+require('dotenv').config();
+
+const Eris = require('eris');
+const bot = new Eris(process.env.NTI4NjA3ODkxNDgyMjE0NDMz.D30mjA.MUtOffPne8gGrFF_6V4naVV6kEM);
+
+bot.connect();
