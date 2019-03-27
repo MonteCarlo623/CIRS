@@ -14,4 +14,4 @@ async def on_ready():
  
 [several commands]
  
-bot.run(os.environ["NTI4NjA3ODkxNDgyMjE0NDMz.D30mjA.MUtOffPne8gGrFF_6V4naVV6kEM"])
+bot.run(config.token)
