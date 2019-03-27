@@ -1,6 +1,5 @@
-require('dotenv').config();
-
-const Eris = require('eris');
-const bot = new Eris(process.env.NTI4NjA3ODkxNDgyMjE0NDMz.D30mjA.MUtOffPne8gGrFF_6V4naVV6kEM);
-
-bot.connect();
+{
+	"token": "mfa.3XY1oyrCfTuNspLwEOyI-01FHEKLUQlSpHavIvXr1OyoraDaDoAgVIJgl-AHfiRg273IDCAGaz7yB9nqh_1l",
+	"someApiKey": "api_key",
+	"port": 8081
+}
