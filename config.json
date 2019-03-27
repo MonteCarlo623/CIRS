@@ -1,5 +1,5 @@
 {
-	"token": "your_discord_token",
+	"token": "BOT_TOKEN",
 	"someApiKey": "api_key",
 	"port": 8081
 }
